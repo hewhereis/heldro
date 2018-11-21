@@ -310,11 +310,11 @@
  	font-weight: bold;
  }
 
- .eltdf-page-footer .eltdf-footer-column-1 img,
+ /*.eltdf-page-footer .eltdf-footer-column-1 img,
  .eltdf-page-footer .eltdf-footer-column-3 img {
  	-webkit-filter: brightness(0) invert(9);
  	filter: brightness(0) invert(9);
- }
+ }*/
 
  .eltdf-masonry-gallery-holder .eltdf-mg-item.eltdf-mg-standard:hover .eltdf-mg-item-inner {
  	background-color: rgba(0,0,0,0.6);
