@@ -1,0 +1,519 @@
+/*
+ Theme Name:   Heldro Child
+ Theme URI:    http://nieuw.heldro.nl/
+ Description:  Heldro Child Theme
+ Author:       Siebrand
+ Template:     sweettooth
+ Version:      1.0.0
+ Text Domain:  heldro-child
+ */
+
+ body {
+ 	font-family: Helvetica,Georgia,serif;
+ }
+
+ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a:hover, p a:hover, .eltdf-comment-holder .eltdf-comment-text .replay, .eltdf-comment-holder .eltdf-comment-text .comment-reply-link, .eltdf-comment-holder .eltdf-comment-text .comment-edit-link, .eltdf-comment-holder .eltdf-comment-text #cancel-comment-reply-link, .eltdf-owl-slider .owl-nav .owl-prev:hover .eltdf-prev-icon, .eltdf-owl-slider .owl-nav .owl-prev:hover .eltdf-next-icon, .eltdf-owl-slider .owl-nav .owl-next:hover .eltdf-prev-icon, .eltdf-owl-slider .owl-nav .owl-next:hover .eltdf-next-icon, .eltdf-side-menu-button-opener.opened, .eltdf-side-menu-button-opener:hover, nav.eltdf-fullscreen-menu ul li ul li.current-menu-ancestor > a, nav.eltdf-fullscreen-menu ul li ul li.current-menu-item > a, nav.eltdf-fullscreen-menu > ul > li.eltdf-active-item > a, .eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-search-submit:hover, .eltdf-search-page-holder article.sticky .eltdf-post-title a, .eltdf-search-cover .eltdf-search-close a:hover, .eltdf-blog-holder article.sticky .eltdf-post-title a, .eltdf-blog-holder article .eltdf-post-info-bottom > div a:hover, .eltdf-blog-holder article .eltdf-post-info-bottom .eltdf-post-info-author a:hover, .eltdf-author-description .eltdf-author-description-text-holder .eltdf-author-name a:hover, .eltdf-author-description .eltdf-author-description-text-holder .eltdf-author-social-icons a:hover, .eltdf-blog-pagination ul li.eltdf-pag-prev a, .eltdf-blog-pagination ul li.eltdf-pag-next a, .eltdf-blog-pagination ul li a:hover, .eltdf-blog-pagination ul li a.eltdf-pag-active, .eltdf-bl-standard-pagination ul li.eltdf-bl-pag-active a, .eltdf-blog-single-navigation .eltdf-blog-single-prev:hover, .eltdf-blog-single-navigation .eltdf-blog-single-next:hover, .eltdf-blog-list-holder .eltdf-bli-info > div a:hover, .eltdf-blog-list-holder .eltdf-bli-info .eltdf-post-info-author a:hover, .eltdf-blog-holder.eltdf-blog-single.eltdf-blog-single-standard article .eltdf-post-info-top > div a:hover, .eltdf-main-menu>ul>li>a, .widget.widget_rss > h4 .rsswidget:hover, .widget.widget_search input, .widget.widget_search button, .widget.widget_search button, .widget.widget_pages a:hover, .widget.widget_archive a:hover, .widget.widget_categories a:hover, .widget.widget_meta a:hover, .widget.widget_recent_comments a:hover, .widget.widget_nav_menu a:hover, .widget.widget_tag_cloud a:hover, .widget.eltdf-blog-list-widget .eltdf-post-info-date a, .eltdf-page-footer .widget a, .eltdf-top-bar .widget a, .eltdf-page-footer .widget.widget_search button:hover, .eltdf-top-bar .widget.widget_search button:hover, .eltdf-page-footer .widget.widget_tag_cloud a:hover, .eltdf-top-bar .widget.widget_tag_cloud a:hover, .eltdf-page-footer .widget.widget_rss .eltdf-footer-widget-title .rsswidget:hover, .eltdf-top-bar .widget.widget_rss .eltdf-footer-widget-title .rsswidget:hover, .eltdf-page-footer .widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-standard li .eltdf-tweet-text a, .eltdf-top-bar .widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-standard li .eltdf-tweet-text a, .widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-standard li .eltdf-tweet-text a:hover, .widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-slider li .eltdf-twitter-icon i, .widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-slider li .eltdf-tweet-text a, .widget.widget_eltdf_twitter_widget .eltdf-twitter-widget.eltdf-twitter-slider li .eltdf-tweet-text span, .eltdf-main-menu ul li a:hover, .eltdf-main-menu > ul > li > a, .eltdf-drop-down .second .inner ul li.current-menu-ancestor > a, .eltdf-drop-down .second .inner ul li.current-menu-item > a, .eltdf-drop-down .wide .second .inner > ul > li.current-menu-ancestor > a, .eltdf-drop-down .wide .second .inner > ul > li.current-menu-item > a, .eltdf-mobile-header .eltdf-mobile-menu-opener.eltdf-mobile-menu-opened a, .eltdf-mobile-header .eltdf-mobile-nav ul ul li.current-menu-ancestor > a, .eltdf-mobile-header .eltdf-mobile-nav ul ul li.current-menu-item > a, .eltdf-mobile-header .eltdf-mobile-nav .eltdf-grid > ul > li.eltdf-active-item > a, .eltdf-btn.eltdf-btn-outline, .eltdf-horizontal-timeline .eltdf-timeline-navigation a.eltdf-prev, .eltdf-horizontal-timeline .eltdf-timeline-navigation a.eltdf-next, .eltdf-image-carousel .owl-nav .owl-prev:hover .eltdf-prev-icon, .eltdf-image-carousel .owl-nav .owl-prev:hover .eltdf-next-icon, .eltdf-image-carousel .owl-nav .owl-next:hover .eltdf-prev-icon, .eltdf-image-carousel .owl-nav .owl-next:hover .eltdf-next-icon, .eltdf-social-share-holder.eltdf-dropdown .eltdf-social-share-dropdown-opener:hover, .eltdf-team-holder.eltdf-team-info-below-image .eltdf-team-position, .eltdf-team-holder.eltdf-team-info-below-image .eltdf-team-social-wrapper .eltdf-team-social-holder .eltdf-team-icon .eltdf-icon-element, .eltdf-team-holder .eltdf-team-social-holder .eltdf-team-icon .eltdf-icon-element:hover, .eltdf-masonry-gallery-holder .eltdf-mg-item.eltdf-mg-standard .eltdf-mg-item-title, .eltdf-masonry-gallery-holder .eltdf-mg-item.eltdf-mg-standard .eltdf-mg-item-text, .eltdf-masonry-gallery-holder .eltdf-mg-item.eltdf-mg-standard:hover .eltdf-mg-item-inner, .eltdf-masonry-gallery-holder .eltdf-mg-item.eltdf-mg-simple.eltdf-mg-skin-dark .eltdf-mg-item-title, .eltdf-masonry-gallery-holder .eltdf-mg-item.eltdf-mg-simple.eltdf-mg-skin-dark .eltdf-mg-item-text, .eltdf-pl-filter-holder ul li.eltdf-pl-current span, .eltdf-pl-filter-holder ul li:hover span, .eltdf-pl-standard-pagination ul li.eltdf-pl-pag-active a, .eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay article .eltdf-pli-text .eltdf-pli-title, .eltdf-portfolio-list-holder.eltdf-pl-gallery-overlay article .eltdf-pli-text .eltdf-pli-excerpt, .eltdf-testimonials-holder.eltdf-testimonials-boxed .eltdf-testimonials-author-holder .eltdf-testimonial-author-inner .eltdf-testimonial-author-position, .eltdf-blog-holder article .eltdf-post-info-bottom>div a:hover, .eltdf-social-share-holder.eltdf-list li a:hover, #eltdf-back-to-top>span, .eltdf-blog-holder article.format-quote .eltdf-post-text-main a:hover, .eltdf-blog-holder.eltdf-blog-single.eltdf-blog-single-standard article.format-link .eltdf-post-info-bottom a:hover, .eltdf-ps-navigation .eltdf-ps-back-btn a:hover, .eltdf-portfolio-single-holder .eltdf-ps-info-holder .eltdf-ps-info-item a:hover, .eltdf-side-menu a.eltdf-close-side-menu, .eltdf-btn.eltdf-btn-simple, .woocommerce-page .eltdf-content .eltdf-quantity-buttons .eltdf-quantity-minus:hover, .woocommerce-page .eltdf-content .eltdf-quantity-buttons .eltdf-quantity-plus:hover, div.woocommerce .eltdf-quantity-buttons .eltdf-quantity-minus:hover, div.woocommerce .eltdf-quantity-buttons .eltdf-quantity-plus:hover, .eltdf-woo-single-page .eltdf-single-product-summary .product_meta > span a:hover, .eltdf-shopping-cart-dropdown .eltdf-item-info-holder .remove:hover, .widget.woocommerce.widget_product_categories ul li a:hover, .widget.woocommerce.widget_product_search .woocommerce-product-search input, .widget.woocommerce.widget_product_search .woocommerce-product-search button, .widget.woocommerce.widget_product_search .woocommerce-product-search button, .woocommerce .widget_search #searchsubmit, .eltdf-pl-holder .eltdf-pli .eltdf-pli-category a {
+ 	color: #0C3A5E;
+ }
+
+ @font-face {
+ 	font-family: 'Canter-light';
+ 	src: url('fonts/CanterLight.woff2') format('woff2'),
+ 	url('fonts/CanterLight.woff') format('woff'),
+ 	url('fonts/CanterLight.ttf') format('truetype');
+ 	font-weight: 300;
+ 	font-style: normal;
+ }
+
+ @font-face {
+ 	font-family: 'Canter-bold';
+ 	src: url('fonts/CanterBold.woff2') format('woff2'),
+ 	url('fonts/CanterBold.woff') format('woff'),
+ 	url('fonts/CanterBold.ttf') format('truetype');
+ 	font-weight: bold;
+ 	font-style: normal;
+ }
+
+ @font-face {
+ 	font-family: 'Open-sans-light';
+ 	src: url('fonts/OpenSans-Light.woff2') format('woff2'),
+ 	url('fonts/OpenSans-Light.woff') format('woff'),
+ 	url('fonts/OpenSans-Light.ttf') format('truetype');
+ 	font-weight: 300;
+ 	font-style: normal;
+ }
+
+ @font-face {
+ 	font-family: 'Open-sans-semibold';
+ 	src: url('fonts/OpenSans-Semibold.woff2') format('woff2'),
+ 	url('fonts/OpenSans-Semibold.woff') format('woff'),
+ 	url('fonts/OpenSans-Semibold.ttf') format('truetype');
+ 	font-weight: 600;
+ 	font-style: normal;
+ }
+
+ @font-face {
+ 	font-family: 'Open-sans-bold';
+ 	src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+ 	url('fonts/OpenSans-Bold.woff') format('woff'),
+ 	url('fonts/OpenSans-Bold.ttf') format('truetype');
+ 	font-weight: bold;
+ 	font-style: normal;
+ }
+
+ @font-face {
+ 	font-family: 'Open-sans';
+ 	src: url('fonts/OpenSans.woff2') format('woff2'),
+ 	url('fonts/OpenSans.woff') format('woff'),
+ 	url('fonts/OpenSans.ttf') format('truetype');
+ 	font-weight: normal;
+ 	font-style: normal;
+ }
+
+ a {
+ 	font-family: 'Open-sans-light' !important;
+ } 
+
+ body, p, span {
+ 	font-family: 'Open-sans-light';
+ }
+
+ h1, h2, h3, h4 {
+ 	font-family: 'Canter-bold' !important;
+ }
+
+ h2 {
+ 	font-size: 40px;
+ }
+
+ h3 {
+ 	font-size: 30px;
+ }
+
+ h2.eltdf-st-title span {
+ 	font-size: 40px !important;
+ 	font-family: 'Canter-bold' !important;
+ 	color: #0C3A5E;
+ }
+
+ h3.single-product_category-title {
+ 	font-size: 30px !important;
+ }
+
+ .custom-content .eltdf-section-title-holder .eltdf-st-text {
+ 	font-size: 40px !important;
+ 	font-family: 'Canter-bold';
+ }
+
+ .menu-item span.item_text {
+ 	font-size: 22px !important;
+ 	font-family: 'Canter-bold' !important;
+ }
+
+ .eltdf-title .eltdf-title-holder .eltdf-page-title span {
+ 	font-family: 'Canter-bold' !important;
+ 	text-transform: none;
+ }
+
+ .product h3 {
+ 	font-size: 20px;
+ }
+
+ .eltdf-breadcrumbs-inner a, 
+ p.woocommerce-result-count,
+ .eltdf-breadcrumbs-inner span,
+ .woocommerce-ordering .select2-container--default .select2-selection--single,
+ .select2-container--default .select2-results>.select2-results__options,
+ p.eltdf-pl-category a {
+ 	font-size: 17px;
+ }
+
+ .d-flex {
+ 	display: flex;
+ }
+
+ .d-flex-align-center {
+ 	display: flex;
+ 	align-items: center;
+ }
+
+ .content-image-carousel .vc_images_carousel {
+ 	max-height: 400px;
+ 	max-width: 100%;
+ }
+
+ .content-image-carousel img {
+ 	-webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.35);
+ 	-moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.35);
+ 	box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.35);
+ }
+
+ ::selection {
+ 	background: #80d6f7; /* WebKit/Blink Browsers */
+ }
+ ::-moz-selection {
+ 	background: #80d6f7; /* Gecko Browsers */
+ }
+
+ #menu-main-manu span {
+ 	color: #0C3A5E;
+ }
+
+ .eltdf-search-opener:hover {
+ 	color: #0C3A5E;
+ }
+
+ .eltdf-main-menu>ul>li>a>span.item_outer .item_text {
+ 	padding-bottom: 5px;
+ }
+
+ .eltdf-main-menu.eltdf-sticky-nav>ul>li>a {
+ 	color: #0C3A5E;
+ }
+
+ .eltdf-page-footer .eltdf-footer-column-3 {
+ 	text-align: left;
+ }
+
+ .eltdf-footer-column-2 {
+ 	display: flex;
+ 	align-items: center;
+ }
+
+ .quote-icon {
+ 	margin: 0 10px;
+ 	font-size: 20px;
+ 	color: #ccc!important;
+ }
+
+ mark.count {
+ 	background-color: initial;
+ }
+
+ .eltdf-main-menu.eltdf-sticky-nav>ul>li.eltdf-active-item>a, .eltdf-main-menu.eltdf-sticky-nav>ul>li>a:hover {
+ 	color: #0C3A5E;
+ }
+
+ .eltdf-slide-from-header-bottom-holder .eltdf-form-holder .eltdf-search-field {
+ 	font-family: Helvetica;
+ }
+
+ .eltdf-has-background {
+ 	background-size: cover;
+ }
+
+ .eltdf-blog-holder.eltdf-blog-single.eltdf-blog-single-standard article.format-link .eltdf-post-info-bottom a:hover, .eltdf-menu-area a, .eltdf-side-menu .eltdf-widget-title {
+ 	color: #00A0DE;
+ }
+
+ .eltdf-side-menu-button-opener.opened, .eltdf-side-menu-button-opener:hover {
+ 	color: #00A0DE;
+ }
+
+ .eltdf-masonry-gallery-holder .eltdf-mg-item.eltdf-mg-simple.eltdf-mg-skin-dark .eltdf-mg-item-inner {
+ 	background-color: #0C3A5E;
+ }
+
+ .eltdf-section-title-holder .eltdf-st-title {
+ 	border-bottom: 1px solid #00A0DE;
+ }
+
+ .post-type-archive .taxonomy-description {
+ 	display: none;
+ }
+
+ .taxonomy-description {
+ 	margin: 20px 0 80px;
+ 	padding-bottom: 20px;
+ 	border-bottom: 2px solid #00A0DE;
+ }
+
+ .eltdf-page-content-holder .eltdf-row-grid-section-wrapper:nth-child(even) {
+ 	background: #f1fbff; 
+ 	padding: 20px 0;
+ }
+
+ .home .eltdf-page-content-holder .eltdf-row-grid-section-wrapper:nth-child(even) {
+ 	background: none; 
+ 	padding: 0;
+ }
+
+ table.table_openingstijden {
+ 	margin-top: 20px;
+ }
+
+ table.table_openingstijden tr, table.table_openingstijden td, table.table_openingstijden th {
+ 	border: none;
+ 	text-align: left;
+ }
+
+ .eltdf-footer-bottom-inner .eltdf-grid-row {
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+
+ h2.woocommerce-loop-category__title .count {
+ 	display: none;
+ }
+
+ .eltdf-footer-bottom-inner .eltdf-grid-col-12 {
+ 	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ 	align-items: center;
+ 	font-size: 14px;
+ 	max-width: 800px;
+ 	margin: auto;
+ }
+
+ .sidebar-menu {
+ 	height: 140px !important;
+ 	display: flex;
+ 	flex-direction: column;
+ 	flex-wrap: wrap;
+ 	margin-bottom: -50px !important;
+ }
+
+ ul.sidebar-menu li {
+ 	font-size: 14px;
+ 	margin: 0;
+ }
+
+ ul.sidebar-menu li:hover {
+ 	text-decoration: underline;
+ }
+
+ ul.sidebar-menu a {
+ 	color: #717171;
+ }
+
+ .eltdf-footer-bottom-holder .widget_custom_html {
+ 	width: 100% !important;
+ 	margin-bottom: 15px;
+ }
+
+ .eltdf-banner-text-holder {
+ 	background-color: rgba(12, 58, 94, 0.4);
+ }
+
+ .eltdf-banner-holder:hover .eltdf-banner-text-holder {
+ 	background-color: rgba(12, 58, 94, 0.2);
+ }
+
+ .eltdf-banner-holder .eltdf-banner-text-inner {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .woocommerce-product-details__short-description {
+ 	font-weight: bold;
+ }
+
+ .eltdf-page-footer .eltdf-footer-column-1 img,
+ .eltdf-page-footer .eltdf-footer-column-3 img {
+ 	-webkit-filter: brightness(0) invert(9);
+ 	filter: brightness(0) invert(9);
+ }
+
+ .eltdf-masonry-gallery-holder .eltdf-mg-item.eltdf-mg-standard:hover .eltdf-mg-item-inner {
+ 	background-color: rgba(0,0,0,0.6);
+ }
+
+ .eltdf-page-footer .eltdf-footer-top-holder {
+ 	background-color: #232323;
+ }
+
+ .eltdf-page-footer .eltdf-footer-bottom-holder {
+ 	background-color: #131313;
+ }
+
+ .eltdf-page-not-found a {
+ 	background-color: #00A0DE !important;
+ }
+
+ .eltdf-404-page .eltdf-page-not-found .eltdf-btn.eltdf-btn-solid:not(.eltdf-btn-custom-hover-bg):hover {
+ 	background-color: #0C3A5E !important;
+ }
+
+ ul.products>.product .eltdf-pl-inner .eltdf-onsale {
+ 	background-color: #0C3A5E;
+ }
+
+ ul.products>.product .eltdf-pl-inner .eltdf-pl-text {
+ 	background-color: rgba(12,58,94,0.2) !important;
+ }
+
+ .wpcf7-submit {
+ 	background-color: #0C3A5E !important;
+ 	float: right;
+ 	display: block !important;
+ 	margin-bottom: 50px !important;
+ }
+
+ div.wpcf7 {
+ 	max-width: 700px !important;
+ 	margin: auto;
+ }
+
+ .span.eltdf-current {
+ 	color: #0C3A5E !important;
+ }
+
+ .eltdf-breadcrumbs {
+ 	font-size: 14px;
+ }
+
+ #cn-accept-cookie {
+    border: none;
+    background-color: #00A0DE !important;
+    background-image: none !important;
+ }
+
+ #cn-accept-cookie:hover {
+    background-color: #0C3A5E;
+ }
+
+ .facebook-circle {
+ 	color: #0C3A5E;
+    padding: 5px 9px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-right: 10px;
+ }
+
+ .eltdf-title .eltdf-title-holder .eltdf-breadcrumbs a:hover {
+ 	color: #0C3A5E;
+ 	border-bottom: 1px solid #00A0DE;
+ }
+
+ .select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option[aria-selected=true] {
+ 	color: #555;
+ }
+
+ .select2-container--default.select2-container--open .select2-selection--single {
+ 	color: #00A0DE;
+ }
+
+ .homepage-actueel-image {
+ 	max-width: 500px;
+ 	margin: auto;
+ } 
+
+ .eltdf-icon-widget-holder {
+ 	margin: 0 10px !important;
+ }
+
+ .eltdf-social-icon-widget {
+ 	font-size: 20px;
+ 	color: #00A0DE;
+ }
+
+ #eltdf-back-to-top>span {
+ 	background-color: #0C3A5E;
+ }
+
+ .openingstijden tbody > tr, 
+ .openingstijden tbody > td {
+ 	border: none !important;
+ }
+
+ table.openingstijden td {
+ 	text-align: left !important;
+ 	padding: 5px 0 !important;
+ }
+
+ ul.single-product_category-list li:first-child {
+ 	display: none !important;
+ }
+
+ .eltdf-side-menu {
+ 	background-image: none;
+ }
+
+ .a.eltdf-text-right.eltdf-icon-has-hover.eltdf-icon-widget-holder {
+ 	display: block;
+ }
+
+ .eltdf-has-parallax-background {
+ 	background-position: center 60% !important;
+ }
+
+ .product .eltdf-pl-text-inner {
+ 	display: none !important;
+ }
+
+ .products .add_to_cart_button {
+ 	display: none!important;
+ }
+
+ .single-product_category-title {
+ 	margin-top: 50px;
+ }
+
+ .single-product_category-list li {
+ 	list-style: none;
+ }
+
+ .single-product_category-list a {
+ 	display: block;
+ 	color: #fff;
+ 	font-weight: bold;
+ 	font-size: 14px;
+ 	padding: 10px 20px;
+ 	margin: 5px 0;
+ 	max-width: 300px;
+ 	background-color: #00A0DE;
+ }
+
+ .single-product_category-list a:hover {
+ 	background-color: #1daae0;
+ }
+
+ .eltdf-main-menu ul li a>span.item_outer:after {
+ 	border-top: 1px solid #00A0DE;
+ }
+
+ .eltdf-separator {
+ 	border-color: #00A0DE !important;
+ }
+
+ .eltdf-custom-font-holder {
+ 	color: #00A0DE !important;	
+ }
+
+ .eltdf-mg-item-content > h3,
+ .eltdf-mg-item-content > p {
+ 	color: #fff !important;
+ }
+
+ .row-margin {
+ 	margin: 100px 0 !important;
+ }
+
+ @media only screen and (max-width: 767px) {
+ 	.d-flex {
+ 		flex-direction: column;
+ 	}
+
+ 	.row-margin {
+ 		margin: 50px 0 !important;
+ 	}
+
+ 	.homepage-actueel-image {
+ 		margin-top: 50px;
+ 	}
+ }
+
+
+ /* INCL. TABLET */
+ @media only screen and (max-width: 768px) {
+ 	.eltdf-mg-item-inner {
+ 		opacity: 1 !important;
+ 		background: rgba(0,0,0,0.3);
+ 	}
+
+ 	.eltdf-masonry-gallery-holder .eltdf-mg-item.eltdf-mg-standard .eltdf-mg-item-content {
+ 		transform: none;
+ 	}
+ }
