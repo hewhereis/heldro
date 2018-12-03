@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="nl" prefix="og: http://ogp.me/ns#">
+<head>
+
+        <meta charset="UTF-8"/>
+        <link rel="profile" href="http://gmpg.org/xfn/11"/>
+
+                <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+       {block name="title"} <title>首页 - Neess Creamyice</title>{/block}
+
+<link rel="canonical" href="/" />
+<link rel='dns-prefetch' href='//s.w.org' />
+{block name="rssxml"}
+<link rel="alternate" type="application/rss+xml" title="Heldro IJs &raquo; Feed" href="{:url('index/xml/feed')}" />
+<link rel="alternate" type="application/rss+xml" title="Heldro IJs &raquo; Reactiesfeed" href="{:url('index/xml/commentsfeed')}" />
+{/block}
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.heldro.nl\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='__STATIC__/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='__STATIC__/wp-content/plugins/cookie-notice/css/front.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='__STATIC__/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.7' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+</style>
+<link rel='stylesheet' id='sweettooth_elated_style_default_style-css'  href='__STATIC__/wp-content/themes/sweettooth/style.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_modules-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/modules.min.css?ver=4.9.8' type='text/css' media='all' />
+
+<style id='sweettooth_elated_style_modules-inline-css' type='text/css'>
+/* generated in /home/heldro/domains/heldro.nl/public_html/wp-content/themes/sweettooth/framework/admin/options/general/map.php sweettooth_elated_page_general_style function */
+{block name="pageid"} .page-id-9433.eltdf-boxed .eltdf-wrapper { background-attachment: fixed;} {/block}
+
+/* generated in /home/heldro/domains/heldro.nl/public_html/wp-content/themes/sweettooth/framework/modules/search/search-functions.php sweettooth_elated_search_styles function */
+.eltdf-fullscreen-search-holder { background-image: url('__STATIC__/wp-content/uploads/2018/10/search-background.jpg');background-position: center 0;background-size: cover;background-repeat: no-repeat;}
+
+
+body:not(.page-id-10690) .eltdf-smooth-transition-loader {
+display:none !important;
+}
+
+.eltdf-slider:after,
+.wpb_revslider_element:after {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-image:url(http://sweettooth.elated-themes.com/wp-content/uploads/2017/03/pattern-sweet.jpg);
+    background-repeat: repeat !important;
+	background-color: transparent !important;
+	background-attachment: scroll !important;
+	background-size: inherit !important;
+    z-index:10;
+}
+
+.eltdf-main-rev-slider-loaded .eltdf-slider:after,
+.eltdf-main-rev-slider-loaded .wpb_revslider_element:after,
+.page-id-10690  .eltdf-slider:after,
+.page-id-10690  .wpb_revslider_element:after,
+.eltdf-boxed .eltdf-slider:after,
+.eltdf-boxed  .wpb_revslider_element:after {
+    display:none !important;
+};
+
+</style>
+
+<link rel='stylesheet' id='eltdf_font_awesome-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/font-awesome/css/font-awesome.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_font_elegant-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/elegant-icons/style.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_ion_icons-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/ion-icons/css/ionicons.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_linea_icons-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/linea-icons/style.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_simple_icons-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/simple-line-icons/simple-line-icons.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='eltdf_linear_icons-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/linear-icons/style.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='__STATIC__/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='__STATIC__/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_woo-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/woocommerce.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_woo_responsive-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/woocommerce-responsive.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_style_dynamic-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/style_dynamic.css?ver=1526050517' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_modules_responsive-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/modules-responsive.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='sweettooth_elated_style_style_dynamic_responsive-css'  href='__STATIC__/wp-content/themes/sweettooth/assets/css/style_dynamic_responsive.css?ver=1526050517' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='__STATIC__/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='__STATIC__/wp-content/themes/heldro_child/style.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='__STATIC__/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.4.7' type='text/css' media='all' />
+<script type='text/javascript' src='__STATIC__/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"https:\/\/www.heldro.nl\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"TRUE","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.42'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.7'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Winkelmand bekijken","cart_url":"https:\/\/www.heldro.nl\/winkelmand\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=5.4.7'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"nl","strings":{"mejs.install-flash":"Je gebruikt een browser die geen Flash Player heeft ingeschakeld of ge\u00efnstalleerd. Zet de Flash Player-plugin aan of download de nieuwste versie van https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Volledig scherm uitzetten","mejs.fullscreen-on":"Volledig scherm","mejs.download-video":"Video downloaden","mejs.fullscreen":"Volledig scherm","mejs.time-jump-forward":["Ga 1 seconde vooruit","Ga %1 seconden vooruit"],"mejs.loop":"Loop aan-\/uitzetten ","mejs.play":"Afspelen","mejs.pause":"Pauzeren","mejs.close":"Sluiten","mejs.time-slider":"Tijdschuifbalk","mejs.time-help-text":"Gebruik de Links\/Rechts-pijltoetsen om \u00e9\u00e9n seconde vooruit te spoelen, Omhoog\/Omlaag-pijltoetsen om tien seconden vooruit te spoelen.","mejs.time-skip-back":["1 seconde terugspoelen","Ga %1 seconden terug"],"mejs.captions-subtitles":"Ondertitels","mejs.captions-chapters":"Hoofdstukken","mejs.none":"Geen","mejs.mute-toggle":"Geluid aan-\/uitzetten","mejs.volume-help-text":"Gebruik Omhoog\/Omlaag-pijltoetsen om het volume te verhogen of te verlagen.","mejs.unmute":"Geluid aan","mejs.mute":"Afbreken","mejs.volume-slider":"Volumeschuifbalk","mejs.video-player":"Videospeler","mejs.audio-player":"Audiospeler","mejs.ad-skip":"Advertentie overslaan","mejs.ad-skip-info":["Overslaan in 1 seconde","Overslaan in %1 seconden"],"mejs.source-chooser":"Kies bron","mejs.stop":"Stop","mejs.speed-rate":"Snelheidsniveau","mejs.live-broadcast":"Live uitzending","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanees","mejs.arabic":"Arabisch","mejs.belarusian":"Wit-Russisch","mejs.bulgarian":"Bulgaars","mejs.catalan":"Catalaans","mejs.chinese":"Chinees","mejs.chinese-simplified":"Chinees (Versimpeld)","mejs.chinese-traditional":"Chinees (Traditioneel)","mejs.croatian":"Kroatisch","mejs.czech":"Tsjechisch","mejs.danish":"Deens","mejs.dutch":"Nederlands","mejs.english":"Engels","mejs.estonian":"Estlands","mejs.filipino":"Filipijns","mejs.finnish":"Fins","mejs.french":"Frans","mejs.galician":"Galicisch","mejs.german":"Duits","mejs.greek":"Grieks","mejs.haitian-creole":"Ha\u00eftiaans Creools","mejs.hebrew":"Hebreeuws","mejs.hindi":"Hindi","mejs.hungarian":"Hongaars","mejs.icelandic":"IJslands","mejs.indonesian":"Indonesisch","mejs.irish":"Iers","mejs.italian":"Italiaans","mejs.japanese":"Japans","mejs.korean":"Koreaans","mejs.latvian":"Lets","mejs.lithuanian":"Litouws","mejs.macedonian":"Macedonisch","mejs.malay":"Maleis","mejs.maltese":"Maltees","mejs.norwegian":"Noors","mejs.persian":"Perzisch","mejs.polish":"Pools","mejs.portuguese":"Portugees","mejs.romanian":"Roemeens","mejs.russian":"Russisch","mejs.serbian":"Servisch","mejs.slovak":"Slovaaks","mejs.slovenian":"Sloveens","mejs.spanish":"Spaans","mejs.swahili":"Swahili","mejs.swedish":"Zweeds","mejs.tagalog":"Tagalog","mejs.thai":"Thais","mejs.turkish":"Turks","mejs.ukrainian":"Oekra\u00efens","mejs.vietnamese":"Vietnamees","mejs.welsh":"Wels","mejs.yiddish":"Jiddisch"}};
+</script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<link rel='https://api.w.org/' href='http://heldro.local/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://heldro.local/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="__STATIC__/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.9.8" />
+<meta name="generator" content="WooCommerce 3.3.5" />
+<link rel='shortlink' href='http://heldro.local/' />
+<link rel="alternate" type="application/json+oembed" href="http://heldro.local/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.heldro.nl%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://heldro.local/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.heldro.nl%2F&#038;format=xml" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="__STATIC__/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+
+<script type="text/javascript">function setREVStartSize(e){
+				document.addEventListener("DOMContentLoaded", function() {
+					try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+						if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
+					}catch(d){console.log("Failure at Presize of Slider:"+d)}
+				});
+			};</script>
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1489068761746{padding-bottom: 110px !important;}.vc_custom_1489480763916{margin-bottom: -6px !important;padding-top: 5px !important;}.vc_custom_1525179750408{margin-left: -18px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style>
+
+</noscript></head>
+<body class="home page-template page-template-full-width page-template-full-width-php page page-id-9433 eltd-core-1.0.1 heldro child-child-ver-1.0.0 sweettooth-ver-1.3 eltdf-smooth-page-transitions eltdf-smooth-page-transitions-preloader eltdf-grid-1300 eltdf-sticky-header-on-scroll-down-up eltdf-dropdown-animate-height eltdf-header-centered eltdf-menu-area-shadow-disable eltdf-menu-area-in-grid-shadow-disable eltdf-menu-area-border-disable eltdf-menu-area-in-grid-border-disable eltdf-logo-area-border-disable eltdf-logo-area-in-grid-border-disable eltdf-side-menu-slide-from-right eltdf-woocommerce-columns-4 eltdf-woo-normal-space eltdf-woo-pl-info-below-image eltdf-default-mobile-header eltdf-sticky-up-mobile-header wpb-js-composer js-comp-ver-5.4.7 vc_responsive eltdf-slide-from-header-bottom" itemscope itemtype="http://schema.org/WebPage">
+    			<div class="eltdf-smooth-transition-loader eltdf-mimic-ajax">
+				<div class="eltdf-st-loader">
+					<div class="eltdf-st-loader1">
+						<div class="eltdf-logo-preloader"><div class="eltdf-logo-preloader-mask"><img src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png" alt="Preloader" /></div></div>					</div>
+				</div>
+			</div>
+		<section class="eltdf-side-menu">
+	<div class="eltdf-close-side-menu-holder">
+		<a class="eltdf-close-side-menu" href="#" target="_self">
+			<span class="icon-arrows-remove"></span>
+		</a>
+	</div>
+	<div id="text-7" class="widget eltdf-sidearea widget_text"><div class="eltdf-widget-title-holder"><h3 class="eltdf-widget-title">Heldro IJs</h3></div>			<div class="textwidget"></div>
+		</div><div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-left eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: #c9a74d;border-style: solid;width: 122px;border-bottom-width: 1px;margin-top: -19px;margin-bottom: 20px"></div>
+</div>
+</div><div id="text-8" class="widget eltdf-sidearea widget_text">			<div class="textwidget"><p>Bij Heldro ijs geloven wij in vers en eenvoud. Daarom verkopen wij in onze opscheppunten in Ottersum en Nijmegen ultra vers schepijs, direct uit de ijsmachine, in de vitrine en dat proef je!</p>
+</div>
+		</div><div id="text-12" class="widget eltdf-sidearea widget_text">			<div class="textwidget"><p style="text-decoration: underline; margin-bottom: -20px;"> Contactgegevens Ottersum:</p>
+</div>
+		</div>
+        <a class="eltdf-text-right eltdf-icon-has-hover eltdf-icon-widget-holder" href="#" data-hover-color="#030303"   target="_self" style="color: #d5d5d5;font-size: 21px">
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-icon-widget fa fa-phone-square"></i></span><span class="eltdf-icon-text-holder" style="color: #7c7c7c;font-size: 16px"><span class="eltdf-icon-text">0485-511593</span></span>        </a>
+
+        <a class="eltdf-text-right eltdf-icon-has-hover eltdf-icon-widget-holder" href="mailto:info@heldro.nl" data-hover-color="#030303"   target="_self" style="color: #d5d5d5;font-size: 21px">
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-icon-widget fa fa-envelope-square"></i></span><span class="eltdf-icon-text-holder" style="color: #7c7c7c;font-size: 16px"><span class="eltdf-icon-text">info@heldro.nl</span></span>        </a>
+
+        <a class="eltdf-text-right eltdf-icon-has-hover eltdf-icon-widget-holder" href="#" data-hover-color="#030303"   target="_self" style="color: #d5d5d5;font-size: 21px;margin: 0px 0px 0px 3px">
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-icon-widget fa fa-map-marker"></i></span><span class="eltdf-icon-text-holder" style="color: #7c7c7c;font-size: 16px"><span class="eltdf-icon-text">St Janstraat 41, 6595AA Ottersum</span></span>        </a>
+    <div id="text-13" class="widget eltdf-sidearea widget_text">			<div class="textwidget"><p style="text-decoration: underline; margin-top: 30px; margin-bottom: -20px;"> Contactgegevens Nijmegen:</p>
+</div>
+		</div>
+        <a class="eltdf-text-right eltdf-icon-has-hover eltdf-icon-widget-holder" href="#" data-hover-color="#030303"   target="_self" style="color: #d5d5d5;font-size: 21px">
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-icon-widget fa fa-phone-square"></i></span><span class="eltdf-icon-text-holder" style="color: #7c7c7c;font-size: 16px"><span class="eltdf-icon-text">024-7370105</span></span>        </a>
+
+        <a class="eltdf-text-right eltdf-icon-has-hover eltdf-icon-widget-holder" href="mailto:nijmegen@heldro.nl" data-hover-color="#030303"   target="_self" style="color: #d5d5d5;font-size: 21px">
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-icon-widget fa fa-envelope-square"></i></span><span class="eltdf-icon-text-holder" style="color: #7c7c7c;font-size: 16px"><span class="eltdf-icon-text">nijmegen@heldro.nl</span></span>        </a>
+
+        <a class="eltdf-text-right eltdf-icon-has-hover eltdf-icon-widget-holder" href="#" data-hover-color="#030303"   target="_self" style="color: #d5d5d5;font-size: 21px">
+			<span class="eltdf-icon-holder eltdf-normal"><i class="eltdf-icon-widget fa fa-map-marker"></i></span><span class="eltdf-icon-text-holder" style="color: #7c7c7c;font-size: 16px"><span class="eltdf-icon-text">Burchtstraat 122, 6511 RJ Nijmegen</span></span>        </a>
+    <div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: transparent;border-style: solid;border-bottom-width: 1px;margin-top: 1px;margin-bottom: -10px"></div>
+</div>
+</div><div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: #c9a74d;border-style: solid;width: 335px;border-bottom-width: 1px;margin-top: 44px;margin-bottom: 2px"></div>
+</div>
+</div>
+		<h2 class="eltdf-custom-font-holder" style="font-size: 25px;color: #c9a74d" data-font-size=25>
+		Menu		</h2>
+
+		<div id="custom_html-4" class="widget_text widget eltdf-sidearea widget_custom_html"><div class="textwidget custom-html-widget"><ul class="sidebar-menu">
+	<li><a href="{:url('index/product/ultra')}">Ultra vers ijs</a></li>
+	<li><a href="{:url('index/index/opscheppunten')}">Opscheppunten</a></li>
+	<li><a href="{:url('index/product/cadeau')}">Heldro Cadeau</a></li>
+	<li><a href="{:url('index/product/historie')}">Historie</a></li>
+	<li><a href="{:url('index/index/evenementen')}">Evenementen</a></li>
+	<li><a href="{:url('index/product/machine')}">Vers uit de ijsmachine</a></li>
+	<li><a href="{:url('index/product/thuis')}">Thuis genieten</a></li>
+	<li><a href="{:url('index/product/iets')}">Iets te vieren</a></li>
+	<li><a href="{:url('index/index/ijsproducten')}">Al ons ijs</a></li>
+	<li><a href="{:url('index/index/solliciteren')}">Soll-ijs-citeren</a></li>
+</ul></div></div><div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: #c9a74d;border-style: solid;width: 335px;border-bottom-width: 1px;margin-top: 44px;margin-bottom: 2px"></div>
+</div>
+</div>
+		<h2 class="eltdf-custom-font-holder" style="font-size: 25px;color: #c9a74d" data-font-size=25>
+		Volg ons op social media		</h2>
+
+		<div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-center eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: transparent;border-style: solid;border-bottom-width: 1px;margin-bottom: -8px"></div>
+</div>
+</div>
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://www.facebook.com/HeldroIJs?ref=website" data-hover-color="#c9a74d"   target="_blank" style="color: #030303;font-size: 13px;margin: 0px 9px 0px 0px">
+			<span class="eltdf-icon-holder eltdf-normal"><span class="eltdf-social-icon-widget social_facebook"></span></span>					</a>
+
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://twitter.com/hashtag/Heldro?src=website" data-hover-color="#c9a74d"   target="_blank" style="color: #030303;font-size: 13px;margin: 0px 9px 0px 0px">
+			<span class="eltdf-icon-holder eltdf-normal"><span class="eltdf-social-icon-widget social_twitter"></span></span>					</a>
+
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://www.instagram.com/heldro1938/" data-hover-color="#c9a74d"   target="_blank" style="color: #030303;font-size: 13px;margin: 0px 9px 0px 0px">
+			<span class="eltdf-icon-holder eltdf-normal"><span class="eltdf-social-icon-widget social_instagram"></span></span>					</a>
+
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://www.linkedin.com/company/heldro-ijsbedrijf" data-hover-color="#c9a74d"   target="_blank" style="color: #030303;font-size: 13px;margin: 0px 9px 0px 0px">
+			<span class="eltdf-icon-holder eltdf-normal"><span class="eltdf-social-icon-widget social_linkedin"></span></span>					</a>
+		</section>
+    <div class="eltdf-wrapper">
+        <div class="eltdf-wrapper-inner">
+
+<header class="eltdf-page-header">
+
+    <div class="eltdf-logo-area">
+
+
+            <div class="eltdf-vertical-align-containers">
+                <div class="eltdf-position-center">
+                    <div class="eltdf-position-center-inner">
+
+
+<div class="eltdf-logo-wrapper">
+	<a itemprop="url" href="http://heldro.local/" style="height: 54px;">
+		<img itemprop="image" class="eltdf-normal-logo" src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png"  alt="logo"/>
+		<img itemprop="image" class="eltdf-dark-logo" src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png"  alt="dark logo"/>		<img itemprop="image" class="eltdf-light-logo" src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png"  alt="light logo"/>	</a>
+</div>
+
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+
+    <div class="eltdf-menu-area">
+
+
+            <div class="eltdf-vertical-align-containers">
+                <div class="eltdf-position-center">
+                    <div class="eltdf-position-center-inner">
+{block name="nav1"}
+<nav class="eltdf-main-menu eltdf-drop-down eltdf-default-nav">
+    <ul id="menu-main-manu" class="clearfix"><li id="nav-menu-item-11278" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="/" class=""><span class="item_outer"><span class="item_text">Home</span></span></a></li>
+<li id="nav-menu-item-11569" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="{:url('index/index/opscheppunten')}" class=""><span class="item_outer"><span class="item_text">Opscheppunten</span></span></a></li>
+<li id="nav-menu-item-11282" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="{:url('index/index/ijsproducten')}" class=""><span class="item_outer"><span class="item_text">IJsproducten</span></span></a></li>
+<li id="nav-menu-item-11724" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="{:url('index/index/verkooppunten')}" class=""><span class="item_outer"><span class="item_text">Verkooppunten</span></span></a></li>
+<li id="nav-menu-item-11486" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="{:url('index/index/contact')}" class=""><span class="item_outer"><span class="item_text">Contact</span></span></a></li>
+</ul></nav>
+{/block}
+
+
+	    <a  		    class="eltdf-search-opener eltdf-icon-has-hover" href="javascript:void(0)">
+            <span class="eltdf-search-opener-wrapper">
+                <i class="eltdf-icon-ion-icon ion-ios-search "></i>	                        </span>
+	    </a>
+    		<a class="eltdf-side-menu-button-opener eltdf-icon-has-hover"  href="javascript:void(0)" >
+						<span class="eltdf-side-menu-lines">
+        		<span class="eltdf-side-menu-line eltdf-line-1"></span>
+        		<span class="eltdf-side-menu-line eltdf-line-2"></span>
+                <span class="eltdf-side-menu-line eltdf-line-3"></span>
+        	</span>
+		</a>
+	                    </div>
+                </div>
+            </div>
+
+            </div>
+
+
+
+<div class="eltdf-sticky-header">
+        <div class="eltdf-sticky-holder">
+                    <div class=" eltdf-vertical-align-containers">
+                <div class="eltdf-position-left">
+                    <div class="eltdf-position-left-inner">
+
+
+<div class="eltdf-logo-wrapper">
+	<a itemprop="url" href="http://heldro.local/" style="height: 54px;">
+		<img itemprop="image" class="eltdf-normal-logo" src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png"  alt="logo"/>
+		<img itemprop="image" class="eltdf-dark-logo" src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png"  alt="dark logo"/>		<img itemprop="image" class="eltdf-light-logo" src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png"  alt="light logo"/>	</a>
+</div>
+
+                    </div>
+                </div>
+                <div class="eltdf-position-right">
+                    <div class="eltdf-position-right-inner">
+{block name="nav2"}
+<nav class="eltdf-main-menu eltdf-drop-down eltdf-sticky-nav">
+    <ul id="menu-main-manu-1" class="clearfix"><li id="sticky-nav-menu-item-11278" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="/" class=""><span class="item_outer"><span class="item_text">Home</span><span class="plus"></span></span></a></li>
+<li id="sticky-nav-menu-item-11569" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="{:url('index/index/opscheppunten')}" class=""><span class="item_outer"><span class="item_text">Opscheppunten</span><span class="plus"></span></span></a></li>
+<li id="sticky-nav-menu-item-11282" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="{:url('index/index/ijsproducten')}" class=""><span class="item_outer"><span class="item_text">IJsproducten</span><span class="plus"></span></span></a></li>
+<li id="sticky-nav-menu-item-11724" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="{:url('index/index/verkooppunten')}" class=""><span class="item_outer"><span class="item_text">Verkooppunten</span><span class="plus"></span></span></a></li>
+<li id="sticky-nav-menu-item-11486" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="{:url('index/index/contact')}" class=""><span class="item_outer"><span class="item_text">Contact</span><span class="plus"></span></span></a></li>
+</ul></nav>
+{/block}
+						                    </div>
+                </div>
+            </div>
+                </div>
+	</div>
+
+
+	<div class="eltdf-slide-from-header-bottom-holder">
+	<form action="http://heldro.local/" method="get">
+	    <div class="eltdf-form-holder">
+	        <input type="text" placeholder="Search" name="s" class="eltdf-search-field" autocomplete="off" />
+	        <button type="submit" class="eltdf-search-submit"><span class="icon_search "></span></button>
+	    </div>
+	</form>
+</div></header>
+
+
+<header class="eltdf-mobile-header">
+
+	<div class="eltdf-mobile-header-inner">
+		<div class="eltdf-mobile-header-holder">
+			<div class="eltdf-grid">
+				<div class="eltdf-vertical-align-containers">
+					<div class="eltdf-vertical-align-containers">
+													<div class="eltdf-mobile-menu-opener">
+								<a href="javascript:void(0)">
+									<span class="eltdf-mm-lines">
+										<span class="eltdf-mm-line eltdf-line-1"></span>
+										<span class="eltdf-mm-line eltdf-line-2"></span>
+										<span class="eltdf-mm-line eltdf-line-3"></span>
+									</span>
+																	</a>
+							</div>
+												<div class="eltdf-position-center">
+							<div class="eltdf-position-center-inner">
+
+
+<div class="eltdf-mobile-logo-wrapper">
+	<a itemprop="url" href="http://heldro.local/" style="height: 54px">
+		<img itemprop="image" src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png"  alt="Mobile Logo"/>
+	</a>
+</div>
+
+							</div>
+						</div>
+						<div class="eltdf-position-right">
+							<div class="eltdf-position-right-inner">
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+{block name="nav3"}
+<nav class="eltdf-mobile-nav">
+    <div class="eltdf-grid">
+        <ul id="menu-main-manu-2" class=""><li id="mobile-menu-item-11278" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/" class=""><span>Home</span></a></li>
+<li id="mobile-menu-item-11569" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="{:url('index/index/opscheppunten')}" class=""><span>Opscheppunten</span></a></li>
+<li id="mobile-menu-item-11282" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="{:url('index/index/ijsproducten')}" class=""><span>IJsproducten</span></a></li>
+<li id="mobile-menu-item-11724" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="{:url('index/index/verkooppunten')}" class=""><span>Verkooppunten</span></a></li>
+<li id="mobile-menu-item-11486" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="{:url('index/index/contact')}" class=""><span>Contact</span></a></li>
+</ul>    </div>
+</nav>
+{/block}
+	</div>
+
+	<div class="eltdf-slide-from-header-bottom-holder">
+	<form action="http://heldro.local/" method="get">
+	    <div class="eltdf-form-holder">
+	        <input type="text" placeholder="Search" name="s" class="eltdf-search-field" autocomplete="off" />
+	        <button type="submit" class="eltdf-search-submit"><span class="icon_search "></span></button>
+	    </div>
+	</form>
+</div></header>
+
+
+	        			<a id='eltdf-back-to-top' href='#'>
+                <span>
+                    <span class="eltdf-left-part"></span>
+                    <span class="eltdf-right-part"></span>
+                </span>
+			</a>
+			{block name="content"}
+            <div class="eltdf-content" >
+                <div class="eltdf-content-inner"><div class="eltdf-full-width">
+	<div class="eltdf-full-width-inner">
+					<div class="eltdf-grid-row">
+				<div class="eltdf-page-content-holder eltdf-grid-col-12">
+					<div class="eltdf-row-grid-section-wrapper "  ><div class="eltdf-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1489068761746" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="eltdf-masonry-gallery-holder eltdf-mg-normal-space"><div class="eltdf-mg-inner"><div class="eltdf-mg-grid-sizer"></div><div class="eltdf-mg-grid-gutter"></div><article class="eltdf-mg-item eltdf-mg-standard eltdf-mg-square-big eltdf-mg-skin-default">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<div class="eltdf-mg-image-overlay" style="background-image:url(__STATIC__/wp-content/uploads/2018/05/58-e1527248763741.jpg)"></div>
+				<img width="1000" height="1000" src="__STATIC__/wp-content/uploads/2018/05/58-e1527248763741.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Opscheppunten</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/index/opscheppunten')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-standard eltdf-mg-square-small eltdf-mg-skin-default">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<div class="eltdf-mg-image-overlay" style="background-image:url(__STATIC__/wp-content/uploads/2017/03/evenementen-e1525166736321.jpg)"></div>
+				<img width="701" height="700" src="__STATIC__/wp-content/uploads/2017/03/evenementen-e1525166736321.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Evenementen</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/index/evenementen')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-simple eltdf-mg-square-small eltdf-mg-skin-dark">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<img width="64" height="64" src="__STATIC__/wp-content/uploads/2017/03/present.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+											<img itemprop="image" class="eltdf-mg-item-icon" src="__STATIC__/wp-content/uploads/2017/03/present.png" alt="" />
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Heldro cadeau</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/product/cadeau')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-standard eltdf-mg-rectangle-portrait eltdf-mg-skin-default">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<div class="eltdf-mg-image-overlay" style="background-image:url(__STATIC__/wp-content/uploads/2017/03/ultra-vers-1-e1525166852205.jpg)"></div>
+				<img width="881" height="1500" src="__STATIC__/wp-content/uploads/2017/03/ultra-vers-1-e1525166852205.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Ultra vers ijs</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/product/ultra')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-standard eltdf-mg-square-small eltdf-mg-skin-default">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<div class="eltdf-mg-image-overlay" style="background-image:url(__STATIC__/wp-content/uploads/2017/03/thuis-e1525167034860.jpg)"></div>
+				<img width="701" height="700" src="__STATIC__/wp-content/uploads/2017/03/thuis-e1525167034860.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Thuis genieten</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/product/thuis')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-standard eltdf-mg-square-small eltdf-mg-skin-default">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<div class="eltdf-mg-image-overlay" style="background-image:url(__STATIC__/wp-content/uploads/2017/03/219A1524-1-e1527946114159.jpg)"></div>
+				<img width="3095" height="3211" src="__STATIC__/wp-content/uploads/2017/03/219A1524-1-e1527946114159.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="__STATIC__/wp-content/uploads/2017/03/219A1524-1-e1527946114159.jpg 3095w, __STATIC__/wp-content/uploads/2017/03/219A1524-1-e1527946114159-289x300.jpg 289w, __STATIC__/wp-content/uploads/2017/03/219A1524-1-e1527946114159-768x797.jpg 768w, __STATIC__/wp-content/uploads/2017/03/219A1524-1-e1527946114159-987x1024.jpg 987w, __STATIC__/wp-content/uploads/2017/03/219A1524-1-e1527946114159-600x622.jpg 600w" sizes="(max-width: 3095px) 100vw, 3095px" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Soll-ijs-citeren</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/index/solliciteren')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-simple eltdf-mg-square-small eltdf-mg-skin-dark">
+	<div class="eltdf-mg-content">
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+											<img itemprop="image" class="eltdf-mg-item-icon" src="__STATIC__/wp-content/uploads/2017/03/open-magazine.png" alt="" />
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Historie</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/product/historie')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-standard eltdf-mg-square-small eltdf-mg-skin-default">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<div class="eltdf-mg-image-overlay" style="background-image:url(__STATIC__/wp-content/uploads/2017/03/verkkooppunten-e1525167496634.jpg)"></div>
+				<img width="700" height="701" src="__STATIC__/wp-content/uploads/2017/03/verkkooppunten-e1525167496634.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Officiële verkooppunten</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/index/verkooppunten')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-standard eltdf-mg-square-small eltdf-mg-skin-default">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<div class="eltdf-mg-image-overlay" style="background-image:url(__STATIC__/wp-content/uploads/2018/05/40-e1526046569412.jpg)"></div>
+				<img width="700" height="701" src="__STATIC__/wp-content/uploads/2018/05/40-e1526046569412.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Al ons ijs</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/index/ijsproducten')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-standard eltdf-mg-rectangle-landscape eltdf-mg-skin-default">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<div class="eltdf-mg-image-overlay" style="background-image:url(__STATIC__/wp-content/uploads/2017/03/vers-uit-machine-e1525167712790.jpg)"></div>
+				<img width="1050" height="700" src="__STATIC__/wp-content/uploads/2017/03/vers-uit-machine-e1525167712790.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Vers uit de ijsmachine</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/product/machine')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+<article class="eltdf-mg-item eltdf-mg-standard eltdf-mg-square-small eltdf-mg-skin-default">
+	<div class="eltdf-mg-content">
+					<div class="eltdf-mg-image">
+				<div class="eltdf-mg-image-overlay" style="background-image:url(__STATIC__/wp-content/uploads/2017/03/iets-vieren-e1525166567566.jpg)"></div>
+				<img width="701" height="700" src="__STATIC__/wp-content/uploads/2017/03/iets-vieren-e1525166567566.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</div>
+				<div class="eltdf-mg-item-outer">
+			<div class="eltdf-mg-item-inner">
+				<div class="eltdf-mg-item-content">
+																<h3 itemprop="name" class="eltdf-mg-item-title entry-title">Iets te vieren</h3>
+														</div>
+									<a itemprop="url" href="{:url('index/product/iets')}" target="_self" class="eltdf-mg-item-link"></a>
+							</div>
+		</div>
+	</div>
+</article>
+</div></div></div></div></div></div></div></div><div class="eltdf-row-grid-section-wrapper "  ><div class="eltdf-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1489480763916" ><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6"><div class="vc_column-inner vc_custom_1525179750408"><div class="wpb_wrapper"><div class="eltdf-elements-holder eltdf-one-column eltdf-responsive-mode-768" ><div class="eltdf-eh-item "  data-item-class="eltdf-eh-custom-468565">
+	<div class="eltdf-eh-item-inner">
+		<div class="eltdf-eh-item-content eltdf-eh-custom-468565" >
+			<div class="eltdf-section-title-holder  " >
+			<h2 class="eltdf-st-title " style="color: #030303">
+			<span>Bolletje op je bolletje in Nijmegen</span>
+		</h2>
+				<p class="eltdf-st-text" style="color: #7c7c7c">Vanaf heden bij Heldro Nijmegen; Bolletje op je bolletje. Dit najaar is er namelijk sprake van een heuse Bolletje ‘take-over’ in onze ambachtelijke ijssalon in Nijmegen. Hier geniet je van het klassieke Heldro ijs, afgetopt met de kruidnoten van Bolletje. Ook de Heldro bubbelwafels ondergaan een tijdelijke Bolletje metamorfose, afgemaakt met Bolletje taai taai. Bolletje kruidnoten worden sinds jaar en dag gebakken volgens geheim kruidnotenrecept door de bakkers van Bolletje. Naast de basistopping van de originele, klassieke kruidnoten, wisselt de topping dagelijks bij Heldro. Van pure chocolade kruidnoten, tot een kruidnotentopping van witte chocolade. Daarnaast zijn de Bolletje toppingsproducten ook los te koop in de ijssalon. Het ‘Bolletje’ ijs is nog tot begin december dagelijks verkrijgbaar bij ons opscheppunt in het centrum van Nijmegen.</p>
+	</div><div class="vc_empty_space"   style="height: 40px" ><span class="vc_empty_space_inner"></span></div>
+<a itemprop="url" href="{:url('index/product/nijmegen')}" target="_blank" style="background-color: #0c3a5e" class="eltdf-btn eltdf-btn-medium eltdf-btn-solid eltdf-btn-custom-hover-bg eltdf-btn-custom-border-hover" data-hover-bg-color="#00a0de" data-hover-border-color="rgba(255,255,255,0.01)" >
+    <span class="eltdf-btn-text">Lees verder</span>
+    </a>		</div>
+	</div>
+</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="eltdf-elements-holder eltdf-one-column eltdf-responsive-mode-768" ><div class="eltdf-eh-item "  data-item-class="eltdf-eh-custom-266050">
+	<div class="eltdf-eh-item-inner">
+		<div class="eltdf-eh-item-content eltdf-eh-custom-266050" >
+
+	<div  class="wpb_single_image wpb_content_element vc_align_left   homepage-actueel-image">
+
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="3872" height="2592" src="__STATIC__/wp-content/uploads/2018/10/CC396E2B-4DD4-4930-93ED-4868CBAEF20D.jpg" class="vc_single_image-img attachment-full" alt="" srcset="__STATIC__/wp-content/uploads/2018/10/CC396E2B-4DD4-4930-93ED-4868CBAEF20D.jpg 3872w, __STATIC__/wp-content/uploads/2018/10/CC396E2B-4DD4-4930-93ED-4868CBAEF20D-300x201.jpg 300w, __STATIC__/wp-content/uploads/2018/10/CC396E2B-4DD4-4930-93ED-4868CBAEF20D-768x514.jpg 768w, __STATIC__/wp-content/uploads/2018/10/CC396E2B-4DD4-4930-93ED-4868CBAEF20D-1024x685.jpg 1024w, __STATIC__/wp-content/uploads/2018/10/CC396E2B-4DD4-4930-93ED-4868CBAEF20D-600x402.jpg 600w" sizes="(max-width: 3872px) 100vw, 3872px" /></div>
+		</figure>
+	</div>
+		</div>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_empty_space"   style="height: 75px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div></div>
+				</div>
+							</div>
+			</div>
+</div>
+</div> <!-- close div.content_inner -->
+	</div>  <!-- close div.content -->
+	{/block}
+					<footer class="eltdf-page-footer">
+				<div class="eltdf-footer-top-holder">
+	<div class="eltdf-footer-top-inner eltdf-full-width">
+		<div class="eltdf-grid-row eltdf-footer-top-alignment-center eltdf-grid-huge-gutter">
+							<div class="eltdf-column-content eltdf-grid-col-4 eltdf-footer-column-1">
+
+	    <div class="widget eltdf-image-widget ">
+		    <img src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png" alt="p"/>
+	    </div>
+    <div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-left eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: #00A0DE;border-style: solid;width: 100px;border-bottom-width: 1px;margin-top: 5px;margin-bottom: 20px"></div>
+</div>
+</div><div id="text-17" class="widget eltdf-footer-column-1 widget_text"><div class="eltdf-widget-title-holder"><h3 class="eltdf-widget-title">Ottersum</h3></div>			<div class="textwidget"></div>
+		</div><div id="text-6" class="widget eltdf-footer-column-1 widget_text">			<div class="textwidget">St Janstraat 41<br/>
+6595AA Ottersum<br/>
+Tel: 0485-51 15 93<br/>
+<a href="mailto:	info@heldro.nl">info@heldro.nl</a>
+<div style="margin-bottom: 50px;"></div></div>
+		</div><div id="text-4" class="widget eltdf-footer-column-1 widget_text"><div class="eltdf-widget-title-holder"><h3 class="eltdf-widget-title">Openingstijden</h3></div>			<div class="textwidget"></div>
+		</div><div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-left eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: #00A0DE;border-style: solid;width: 100px;border-bottom-width: 1px;margin-top: 5px;margin-bottom: 20px"></div>
+</div>
+</div><div id="text-5" class="widget eltdf-footer-column-1 widget_text">			<div class="textwidget"><b>Ottersum:</b> zondag open van 10:00 tot 18:00 <br>
+</div>
+		</div>				</div>
+							<div class="eltdf-column-content eltdf-grid-col-4 eltdf-footer-column-2">
+					<div id="custom_html-3" class="widget_text widget eltdf-footer-column-2 widget_custom_html"><div class="textwidget custom-html-widget"><i class="fa fa-quote-left quote-icon"></i><span style="font-size: 20px;">Waarom ben je nog steeds aan het scrollen? Kom langs, en neem een heerlijk Heldro ijsje! </span> <i class="fa fa-quote-right quote-icon"></i></div></div>				</div>
+							<div class="eltdf-column-content eltdf-grid-col-4 eltdf-footer-column-3">
+
+	    <div class="widget eltdf-image-widget ">
+		    <img src="__STATIC__/wp-content/uploads/2018/04/logo_neessy.png" alt="p" />
+		</div>
+    <div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-left eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: #00A0DE;border-style: solid;width: 100px;border-bottom-width: 1px;margin-top: 5px;margin-bottom: 20px"></div>
+</div>
+</div><div id="text-19" class="widget eltdf-footer-column-3 widget_text"><div class="eltdf-widget-title-holder"><h3 class="eltdf-widget-title">Nijmegen</h3></div>			<div class="textwidget"></div>
+		</div><div id="text-14" class="widget eltdf-footer-column-3 widget_text">			<div class="textwidget">Burchtstraat 122<br/>
+6511 RJ Nijmegen<br/>
+Tel: 024-737 01 05<br/>
+<a href="mailto:	nijmegen@heldro.nl">nijmegen@heldro.nl</a>
+<div style="margin-bottom: 50px;"></div></div>
+		</div><div id="text-15" class="widget eltdf-footer-column-3 widget_text"><div class="eltdf-widget-title-holder"><h3 class="eltdf-widget-title">Openingstijden</h3></div>			<div class="textwidget"></div>
+		</div><div class="widget eltdf-separator-widget "><div class="eltdf-separator-holder clearfix  eltdf-separator-left eltdf-separator-normal">
+	<div class="eltdf-separator" style="border-color: #00A0DE;border-style: solid;width: 100px;border-bottom-width: 1px;margin-top: 5px;margin-bottom: 20px"></div>
+</div>
+</div><div id="text-16" class="widget eltdf-footer-column-3 widget_text">			<div class="textwidget"><b>Nijmegen:</b> vandaag open van 12:00 tot 18:00 <br>
+</div>
+		</div>				</div>
+					</div>
+	</div>
+</div><div class="eltdf-footer-bottom-holder">
+	<div class="eltdf-footer-bottom-inner eltdf-full-width">
+		<div class="eltdf-grid-row ">
+							<div class="eltdf-grid-col-12">
+					<div id="custom_html-2" class="widget_text widget eltdf-footer-bottom-column-2 widget_custom_html"><div class="textwidget custom-html-widget"><span>Copyright 2018. Heldro.nl. Alle rechten voorbehouden.	 | Realisatie: </span> <a href="https://ticonlinemarketing.nl/">TIC Online Marketing </a></div></div>
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://www.facebook.com/HeldroIJs/" data-hover-color="#00A0DE" data-hover-border-color="#00A0DE"  target="_blank" style="color: #00A0DE;font-size: 20px;margin: 15px 0px">
+			<span class="eltdf-icon-holder eltdf-circle" style="width: 40px;height: 40px;line-height: 40px;border-style: solid;border-color: #00A0DE;border-width: 1px"><i class="eltdf-social-icon-widget fa fa-facebook"></i></span>					</a>
+
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://twitter.com/heldro_ijs" data-hover-color="#00A0DE" data-hover-border-color="#00A0DE"  target="_blank" style="color: #00A0DE;font-size: 20px;margin: 15px 0px">
+			<span class="eltdf-icon-holder eltdf-circle" style="width: 40px;height: 40px;line-height: 40px;border-style: solid;border-color: #00A0DE;border-width: 1px"><i class="eltdf-social-icon-widget fa fa-twitter"></i></span>					</a>
+
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://www.instagram.com/heldro1938/" data-hover-color="#00A0DE" data-hover-border-color="#00A0DE"  target="_blank" style="color: #00A0DE;font-size: 20px;margin: 15px 0px">
+			<span class="eltdf-icon-holder eltdf-circle" style="width: 40px;height: 40px;line-height: 40px;border-style: solid;border-color: #00A0DE;border-width: 1px"><i class="eltdf-social-icon-widget fa fa-instagram"></i></span>					</a>
+
+		<a class="eltdf-icon-has-hover eltdf-icon-widget-holder" href="https://www.linkedin.com/company/heldro-ijsbedrijf" data-hover-color="#00A0DE" data-hover-border-color="#00A0DE"  target="_blank" style="color: #00A0DE;font-size: 20px;margin: 15px 0px">
+			<span class="eltdf-icon-holder eltdf-circle" style="width: 40px;height: 40px;line-height: 40px;border-style: solid;border-color: #00A0DE;border-width: 1px"><i class="eltdf-social-icon-widget fa fa-linkedin"></i></span>					</a>
+						</div>
+					</div>
+	</div>
+</div>			</footer>
+			</div> <!-- close div.eltdf-wrapper-inner  -->
+</div> <!-- close div.eltdf-wrapper -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.heldro.nl\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Graag verifi\u00ebren dat je geen robot bent."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.4'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.3.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_a506d29f7bbcf80229f56597882844ed","fragment_name":"wc_fragments_a506d29f7bbcf80229f56597882844ed"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.appear.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/modernizr.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.plugin.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/owl.carousel.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.4.7'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/Chart.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/fluidvids.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=5.4.7'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.nicescroll.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/ScrollToPlugin.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/parallax.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.waitforimages.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/jquery.easing.1.3.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.4.7'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules/plugins/packery-mode.pkgd.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/eltdf-core/shortcodes/countdown/assets/js/plugins/jquery.countdown.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/eltdf-core/shortcodes/counter/assets/js/plugins/counter.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/eltdf-core/shortcodes/counter/assets/js/plugins/absoluteCounter.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/eltdf-core/shortcodes/full-screen-sections/assets/js/plugins/jquery.fullPage.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/eltdf-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/eltdf-core/shortcodes/vertical-split-slider/assets/js/plugins/jquery.multiscroll.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var eltdfGlobalVars = {"vars":{"eltdfAddForAdminBar":0,"eltdfElementAppearAmount":-100,"eltdfAjaxUrl":"https:\/\/www.heldro.nl\/wp-admin\/admin-ajax.php","eltdfAddingToCart":"Adding to Cart...","eltdfStickyHeaderHeight":0,"eltdfStickyHeaderTransparencyHeight":70,"eltdfTopBarHeight":0,"eltdfLogoAreaHeight":90,"eltdfMenuAreaHeight":90,"eltdfMobileHeaderHeight":70}};
+var eltdfPerPageVars = {"vars":{"eltdfStickyScrollAmount":185,"eltdfHeaderTransparencyHeight":0}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='__STATIC__/wp-content/themes/sweettooth/assets/js/modules.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+(function($){
+$(document).ready(function(){
+    var revSlider = $('.eltdf-slider .rev_slider, .eltdf-content .vc_row:first-child .wpb_revslider_element');
+
+    if(revSlider.length) {
+        revSlider.bind('revolution.slide.onloaded', function() {
+            $('body').addClass('eltdf-main-rev-slider-loaded');
+        });
+    }
+});
+})(jQuery);
+</script>
+<script type='text/javascript' src='__STATIC__/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.4.7'></script>
+<script type='text/javascript' src='__STATIC__/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+
+
+			</body>
+</html>

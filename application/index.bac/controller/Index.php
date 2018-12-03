@@ -13,13 +13,9 @@ class Index extends Controller
    	   return $this->fetch();
    }
 
-    public function about(){
+    public function evenementen(){
    	   return $this->fetch();
-    }
-
-    public function service(){
-        return $this->fetch();
-    }
+   }
 
     public function ijsproducten(){
    	   return $this->fetch();
@@ -38,11 +34,13 @@ class Index extends Controller
    }
 
    public function getImg(){
-        set_time_limit(0);
      //halt(realpath('../'));
      $arr = [
-         "https://www.heldro.nl/wp-content/plugins/js_composer/assets/lib/vc_carousel/css/vc_carousel.min.css",
-         "https://www.heldro.nl/wp-content/plugins/js_composer/assets/lib/vc_carousel/css/vc_carousel.min.css"
+        "https://www.heldro.nl/wp-content/uploads/2018/05/85-e1526023833791-600x400.jpg",
+         "https://www.heldro.nl/wp-content/uploads/2018/05/86-e1526023816376-600x400.jpg",
+         "https://www.heldro.nl/wp-content/uploads/2018/05/16-e1526024694836-600x400.jpg",
+         "https://www.heldro.nl/wp-content/themes/sweettooth/assets/fonts/quicksand-light.otf",
+         "https://www.heldro.nl/wp-content/uploads/2018/05/15-1-e1526024665532-600x400.jpg"
      ];
      $i = 1;
      foreach($arr as $key=>$val){
